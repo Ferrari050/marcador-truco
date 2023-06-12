@@ -1,0 +1,88 @@
+body{
+    background-color: #397879;
+    color: #fff;
+    max-width: 1920px;
+    min-width: 400px;
+    
+}
+
+header{
+    background-color: #b8df10;
+    text-align: center;
+}
+
+.titulo{
+    font-size: 24px;
+    padding: 15px;
+}
+
+main{
+    font-size: 20px;
+    max-width: 1920px;
+    min-height: 500px;
+}
+
+.marcador-dentro{
+    height: 500px;
+    width: 600px;
+}
+
+button{
+    border: 1px solid #000;
+    background-color: #b8df10;
+    color: #fff;
+    font-size: 30px;
+    border-radius: 25px;
+    width: 50px;
+    height: 50px;
+}
+
+button:hover{
+    background-color: #8eac0d;
+    transition: 0.2s ease-in-out;
+    transform: scale(1.07);
+    cursor: pointer;
+}
+
+ul{
+    text-align: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    height: 400px;
+}
+
+p{
+    text-align: center;
+}
+
+footer{
+    padding: 15px;
+    text-align: center;
+    font-size: 25px;
+}
+
+.assinatura{
+    border: 2px solid #b8df10;
+    width: 180px;
+    text-align: center;
+    border-radius: 15px;
+}
+
+.painel-nos{
+    float: left;
+    width: 200px;
+    height: 400px;
+    padding: 15px;
+    padding-left: 50px;
+}
+
+.painel-eles{
+    padding: 15px;
+    width: 200px;
+    height: 400px;
+    float: right;
+    padding-right: 50px;
+    
+}
