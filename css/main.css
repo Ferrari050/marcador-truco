@@ -22,13 +22,8 @@ main{
     font-size: 20px;
     max-width: 400px;
     min-width: 330px;
-    height: 550px;
+    height: 470px;
     margin: 0 auto;
-}
-
-.marcador-dentro{
-    height: 500px;
-    width: 600px;
 }
 
 button{
@@ -54,7 +49,7 @@ ul{
     display: flex;
     flex-direction: column;
     gap: 15px;
-    height: 500px;
+    height: 450px;
 }
 
 p{
@@ -72,12 +67,10 @@ footer{
     float: left;
     width: 100px;
     height: 400px;
-    padding: 15px;
     padding-left: 50px;
 }
 
 .painel-eles{
-    padding: 15px;
     width: 100px;
     height: 400px;
     float: right;
@@ -95,6 +88,4 @@ footer{
     padding-top: 5px;
 }
 
-.titulo-time{
-    padding-top: 25px;
-}
+

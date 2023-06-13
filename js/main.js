@@ -44,7 +44,7 @@ function adicionaNovePontoEles() {
     document.getElementById("amount-eles").innerHTML = ` ${totalEles = totalEles + 9}`;
 }
 
-function tiraUmPontoEless() {
+function tiraUmPontoEles() {
     document.getElementById("amount-eles").innerHTML = ` ${totalEles = totalEles - 1}`;
 }
 
@@ -91,7 +91,11 @@ addNoveNos.onclick = function () {
 }
 var tiraUmNos = document.getElementById("botao-tira-um-nos");
 tiraUmNos.onclick = function () {
-    tiraUmPontoNos();
+    if (totalNos > 0) {
+        tiraUmPontoNos();
+    } else {
+        alert("O número de pontos não pode ser menor que zero!");
+    }
 }
 
 ///////add-eles//////
@@ -138,5 +142,9 @@ addNoveEles.onclick = function () {
 
 var tiraUmEles = document.getElementById("botao-tira-um-eles");
 tiraUmEles.onclick = function () {
-    tiraUmPontoEless();
+    if (totalEles > 0) {
+        tiraUmPontoEles();
+    } else {
+        alert("O número de pontos não pode ser menor que zero!");
+    }
 }
