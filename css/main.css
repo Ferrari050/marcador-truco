@@ -2,13 +2,14 @@ body{
     background-image: radial-gradient(#397879, #185050) ;
     color: #fff;
     max-width: 1920px;
-    min-width: 400px;
+    min-width: 500px;
     
 }
 
 header{
     background-image: linear-gradient(#b8df10, #8ea818);
     text-align: center;
+    min-width: 100%;
 }
 
 .titulo{
@@ -23,7 +24,7 @@ header{
 main{
     font-size: 20px;
     max-width: 1920px;
-    min-height: 500px;
+    height: 600px;
 }
 
 .marcador-dentro{
@@ -54,7 +55,7 @@ ul{
     display: flex;
     flex-direction: column;
     gap: 15px;
-    height: 400px;
+    height: 500px;
 }
 
 p{
@@ -77,7 +78,7 @@ footer{
 
 .painel-nos{
     float: left;
-    width: 200px;
+    width: 100px;
     height: 400px;
     padding: 15px;
     padding-left: 50px;
@@ -85,7 +86,7 @@ footer{
 
 .painel-eles{
     padding: 15px;
-    width: 200px;
+    width: 100px;
     height: 400px;
     float: right;
     padding-right: 50px;
