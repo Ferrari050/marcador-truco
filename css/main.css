@@ -53,15 +53,13 @@ ul{
     height: 450px;
 }
 
-p{
-    text-align: center;
-}
-
 footer{
     display: flex;
     justify-content: center;
     align-items: center;
-    font-size: 25px;
+    font-size: 21px;
+    text-align: center;
+    min-width: 330px;
 }
 
 .painel-nos{
@@ -89,4 +87,15 @@ footer{
     padding-top: 5px;
 }
 
+.linkedin-icon{
+    width: 25px;
+    height: 25px;
+}
 
+.assinatura{
+    height: 25px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    gap: 5px;
+}
