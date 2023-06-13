@@ -1,15 +1,12 @@
 body{
     background-image: radial-gradient(#397879, #185050) ;
-    color: #fff;
-    max-width: 1920px;
-    min-width: 500px;
-    
+    color: #fff;   
 }
 
 header{
     background-image: linear-gradient(#b8df10, #8ea818);
     text-align: center;
-    min-width: 100%;
+    min-width: 330px;
 }
 
 .titulo{
@@ -23,8 +20,10 @@ header{
 
 main{
     font-size: 20px;
-    max-width: 1920px;
-    height: 600px;
+    max-width: 400px;
+    min-width: 330px;
+    height: 550px;
+    margin: 0 auto;
 }
 
 .marcador-dentro{
@@ -63,17 +62,10 @@ p{
 }
 
 footer{
-    padding: 15px;
-    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     font-size: 25px;
-    min-height: 400px;
-}
-
-.assinatura{
-    border: 2px solid #b8df10;
-    width: 180px;
-    text-align: center;
-    border-radius: 15px;
 }
 
 .painel-nos{
