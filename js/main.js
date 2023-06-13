@@ -55,7 +55,7 @@ addUmNos.onclick = function () {
     if (totalNos < 11) {
         adicionaUmPontoNos();
     } else {
-        alert("o jogo acabou, nós Ganhamos!");
+        alert("o jogo acabou, nós ganhamos!");
         window.location.reload(true);
     }
 }
@@ -65,7 +65,7 @@ addTresNos.onclick = function () {
     if (totalNos < 9) {
         adicionaTresPontosNos();
     } else {
-        alert("o jogo acabou, nós Ganhamos!");
+        alert("o jogo acabou, nós ganhamos!");
         window.location.reload(true);
     }
 }
@@ -75,7 +75,7 @@ addSeisNos.onclick = function () {
     if (totalNos < 6) {
         adicionaSeisPontosNos();
     } else {
-        alert("o jogo acabou, nós Ganhamos!");
+        alert("o jogo acabou, nós ganhamos!");
         window.location.reload(true);
     }
 }
@@ -85,7 +85,7 @@ addNoveNos.onclick = function () {
     if (totalNos < 3) {
         adicionaNovePontosNos();
     } else {
-        alert("O jogo acabou, nós Ganhamos!");
+        alert("O jogo acabou, nós ganhamos!");
         window.location.reload(true);
     }
 }
