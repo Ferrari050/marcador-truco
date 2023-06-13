@@ -1,5 +1,5 @@
 body{
-    background-color: #397879;
+    background-image: radial-gradient(#397879, #185050) ;
     color: #fff;
     max-width: 1920px;
     min-width: 400px;
@@ -7,7 +7,7 @@ body{
 }
 
 header{
-    background-color: #b8df10;
+    background-image: linear-gradient(#b8df10, #8ea818);
     text-align: center;
 }
 
@@ -65,6 +65,7 @@ footer{
     padding: 15px;
     text-align: center;
     font-size: 25px;
+    min-height: 400px;
 }
 
 .assinatura{
@@ -99,4 +100,8 @@ footer{
 #amount-nos{
     font-size: 35px;
     padding-top: 5px;
+}
+
+.titulo-time{
+    padding-top: 25px;
 }
