@@ -82,7 +82,7 @@ addSeisNos.onclick = function () {
 
 var addNoveNos = document.getElementById("botao-adiciona-nove-nos");
 addNoveNos.onclick = function () {
-    if (totalNos < 9) {
+    if (totalNos < 3) {
         adicionaNovePontosNos();
     } else {
         alert("O jogo acabou, nós Ganhamos!");
@@ -132,7 +132,7 @@ addSeisEles.onclick = function () {
 
 var addNoveEles = document.getElementById("botao-adiciona-nove-eles");
 addNoveEles.onclick = function () {
-    if (totalEles < 9) {
+    if (totalEles < 3) {
         adicionaNovePontoEles();
     } else {
         alert("O jogo acabou, eles ganharam!");
