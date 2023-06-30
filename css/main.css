@@ -39,7 +39,7 @@ button{
 }
 
 button:hover{
-    background-color: #8eac0d;
+    background-color: #41352e;
     transition: 0.2s ease-in-out;
     transform: scale(1.07);
     cursor: pointer;
