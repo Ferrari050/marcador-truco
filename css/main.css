@@ -21,14 +21,15 @@ header{
 
 main{
     font-size: 20px;
-    max-width: 400px;
-    min-width: 330px;
+    min-width: 30%;
+    margin: 0 auto;
     height: 470px;
     margin: 0 auto;
 }
 
 button{
     border: 1px solid #000;
+    margin: 0 auto;
     background-color: #efc8b1;
     color: #181413;
     font-size: 22px;
