@@ -1,104 +1,103 @@
 /*#efc8b1 #514644  #b8df10, #8ea818 #397879, #185050*/
-body{
-    background-color:#514644;
-    color: #fff;   
-    min-width: 300px;
+body {
+  background-color: #514644;
+  color: #fff;
+  min-width: 300px;
 }
 
-header{
-    background-color:#181413;
-    text-align: center;
-    min-width: 330px;
+header {
+  background-color: #181413;
+  text-align: center;
+  min-width: 330px;
 }
 
-.titulo{
-    font-size: 24px;
-    padding: 15px;
+.titulo {
+  font-size: 24px;
+  padding: 15px;
 }
 
-.pontos{
-    font-size: 20px;
+.pontos {
+  font-size: 20px;
 }
 
-main{
-    max-width: 350px;
-    margin: 0 auto;
-    height: 470px;
+main {
+  max-width: 350px;
+  margin: 0 auto;
+  height: 470px;
 }
 
-button{
-    border: 1px solid #000;
-    margin: 0 auto;
-    background-color: #efc8b1;
-    color: #181413;
-    font-size: 18px;
-    border-radius: 25px;
-    width: 50px;
-    height: 50px;
-    font-weight: bold;
-    text-align: center;
-    font-size: 16px;
+button {
+  border: 1px solid #000;
+  margin: 0 auto;
+  background-color: #efc8b1;
+  color: #181413;
+  font-size: 18px;
+  border-radius: 25px;
+  width: 50px;
+  height: 50px;
+  font-weight: bold;
+  text-align: center;
+  font-size: 16px;
 }
 
-button:hover{
-    transition: 0.2s ease-in-out;
-    transform: scale(1.07);
-    cursor: pointer;
+button:hover {
+  transition: 0.2s ease-in-out;
+  transform: scale(1.07);
+  cursor: pointer;
 }
 
-ul{
-    text-align: center;
-    justify-content: center;
-    display: flex;
-    flex-direction: column;
-    gap: 15px;
-    height: 450px;
+ul {
+  text-align: center;
+  justify-content: center;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  height: 450px;
 }
 
-footer{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    font-size: 21px;
-    text-align: center;
-    min-width: 330px;
+footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 21px;
+  text-align: center;
+  min-width: 330px;
 }
 
-.painel-nos{
-    float: left;
-    width: 100px;
-    height: 400px;
-    padding-left: 50px;
+.painel-nos {
+  float: left;
+  width: 100px;
+  height: 400px;
+  padding-left: 50px;
 }
 
-.painel-eles{
-    width: 100px;
-    height: 400px;
-    float: right;
-    padding-right: 50px;
-    
+.painel-eles {
+  width: 100px;
+  height: 400px;
+  float: right;
+  padding-right: 50px;
 }
 
-#amount-eles{
-    font-size: 35px;
-    padding-top: 5px;
+#amount-eles {
+  font-size: 35px;
+  padding-top: 5px;
 }
 
-#amount-nos{
-    font-size: 35px;
-    padding-top: 5px;
+#amount-nos {
+  font-size: 35px;
+  padding-top: 5px;
 }
 
-.linkedin-icon{
-    width: 25px;
-    height: 25px;
+.linkedin-icon {
+  width: 25px;
+  height: 25px;
 }
 
-.assinatura{
-    height: 25px;
-    align-items: center;
-    justify-content: center;
-    display: flex;
-    gap: 5px;
-    min-width: 300px;
+.assinatura {
+  height: 25px;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  gap: 5px;
+  min-width: 300px;
 }

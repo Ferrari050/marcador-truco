@@ -7,144 +7,152 @@ document.getElementById("amount-eles").innerHTML = totalEles;
 /////Funções-Nós/////
 
 function adicionaUmPontoNos() {
-    document.getElementById("amount-nos").innerHTML = ` ${++totalNos}`;
+  document.getElementById("amount-nos").innerHTML = ` ${++totalNos}`;
 }
 
 function adicionaTresPontosNos() {
-    document.getElementById("amount-nos").innerHTML = ` ${totalNos = totalNos + 3}`;
+  document.getElementById("amount-nos").innerHTML = ` ${(totalNos =
+    totalNos + 3)}`;
 }
 
 function adicionaSeisPontosNos() {
-    document.getElementById("amount-nos").innerHTML = ` ${totalNos = totalNos + 6}`;
+  document.getElementById("amount-nos").innerHTML = ` ${(totalNos =
+    totalNos + 6)}`;
 }
 
 function adicionaNovePontosNos() {
-    document.getElementById("amount-nos").innerHTML = ` ${totalNos = totalNos + 9}`;
+  document.getElementById("amount-nos").innerHTML = ` ${(totalNos =
+    totalNos + 9)}`;
 }
 
 function tiraUmPontoNos() {
-    document.getElementById("amount-nos").innerHTML = ` ${totalNos = totalNos - 1}`;
+  document.getElementById("amount-nos").innerHTML = ` ${(totalNos =
+    totalNos - 1)}`;
 }
 
 /////Funções-Eles/////
 
 function adicionaUmPontoEles() {
-    document.getElementById("amount-eles").innerHTML = ` ${++totalEles}`;
+  document.getElementById("amount-eles").innerHTML = ` ${++totalEles}`;
 }
 
 function adicionaTresPontoEles() {
-    document.getElementById("amount-eles").innerHTML = ` ${totalEles = totalEles + 3}`;
+  document.getElementById("amount-eles").innerHTML = ` ${(totalEles =
+    totalEles + 3)}`;
 }
 
 function adicionaSeisPontoEles() {
-    document.getElementById("amount-eles").innerHTML = ` ${totalEles = totalEles + 6}`;
+  document.getElementById("amount-eles").innerHTML = ` ${(totalEles =
+    totalEles + 6)}`;
 }
 
 function adicionaNovePontoEles() {
-    document.getElementById("amount-eles").innerHTML = ` ${totalEles = totalEles + 9}`;
+  document.getElementById("amount-eles").innerHTML = ` ${(totalEles =
+    totalEles + 9)}`;
 }
 
 function tiraUmPontoEles() {
-    document.getElementById("amount-eles").innerHTML = ` ${totalEles = totalEles - 1}`;
+  document.getElementById("amount-eles").innerHTML = ` ${(totalEles =
+    totalEles - 1)}`;
 }
 
 /////add-nós//////
 
 var addUmNos = document.getElementById("botao-adiciona-um-nos");
 addUmNos.onclick = function () {
-    if (totalNos < 11) {
-        adicionaUmPontoNos();
-    } else {
-        alert("o jogo acabou, nós ganhamos!");
-        window.location.reload(true);
-    }
-}
+  if (totalNos < 11) {
+    adicionaUmPontoNos();
+  } else {
+    alert("o jogo acabou, nós ganhamos!");
+    window.location.reload(true);
+  }
+};
 
 var addTresNos = document.getElementById("botao-adiciona-tres-nos");
 addTresNos.onclick = function () {
-    if (totalNos < 9) {
-        adicionaTresPontosNos();
-    } else {
-        alert("o jogo acabou, nós ganhamos!");
-        window.location.reload(true);
-    }
-}
+  if (totalNos < 9) {
+    adicionaTresPontosNos();
+  } else {
+    alert("o jogo acabou, nós ganhamos!");
+    window.location.reload(true);
+  }
+};
 
 var addSeisNos = document.getElementById("botao-adiciona-seis-nos");
 addSeisNos.onclick = function () {
-    if (totalNos < 6) {
-        adicionaSeisPontosNos();
-    } else {
-        alert("o jogo acabou, nós ganhamos!");
-        window.location.reload(true);
-    }
-}
+  if (totalNos < 6) {
+    adicionaSeisPontosNos();
+  } else {
+    alert("o jogo acabou, nós ganhamos!");
+    window.location.reload(true);
+  }
+};
 
 var addNoveNos = document.getElementById("botao-adiciona-nove-nos");
 addNoveNos.onclick = function () {
-    if (totalNos < 3) {
-        adicionaNovePontosNos();
-    } else {
-        alert("O jogo acabou, nós ganhamos!");
-        window.location.reload(true);
-    }
-}
+  if (totalNos < 3) {
+    adicionaNovePontosNos();
+  } else {
+    alert("O jogo acabou, nós ganhamos!");
+    window.location.reload(true);
+  }
+};
 var tiraUmNos = document.getElementById("botao-tira-um-nos");
 tiraUmNos.onclick = function () {
-    if (totalNos > 0) {
-        tiraUmPontoNos();
-    } else {
-        alert("O número de pontos não pode ser menor que zero!");
-    }
-}
+  if (totalNos > 0) {
+    tiraUmPontoNos();
+  } else {
+    alert("O número de pontos não pode ser menor que zero!");
+  }
+};
 
 ///////add-eles//////
 
 var addUmEles = document.getElementById("botao-adiciona-um-eles");
 addUmEles.onclick = function () {
-    if (totalEles < 11) {
-        adicionaUmPontoEles();
-    } else {
-        alert("O jogo acabou, eles ganharam!");
-        window.location.reload(true);
-    }
-}
+  if (totalEles < 11) {
+    adicionaUmPontoEles();
+  } else {
+    alert("O jogo acabou, eles ganharam!");
+    window.location.reload(true);
+  }
+};
 
 var addTresEles = document.getElementById("botao-adiciona-tres-eles");
 addTresEles.onclick = function () {
-    if (totalEles < 9) {
-        adicionaTresPontoEles();
-    } else {
-        alert("O jogo acabou, eles ganharam!");
-        window.location.reload(true);
-    }
-}
+  if (totalEles < 9) {
+    adicionaTresPontoEles();
+  } else {
+    alert("O jogo acabou, eles ganharam!");
+    window.location.reload(true);
+  }
+};
 
 var addSeisEles = document.getElementById("botao-adiciona-seis-eles");
 addSeisEles.onclick = function () {
-    if (totalEles < 6) {
-        adicionaSeisPontoEles();
-    } else {
-        alert("O jogo acabou, eles ganharam!");
-        window.location.reload(true);
-    }
-}
+  if (totalEles < 6) {
+    adicionaSeisPontoEles();
+  } else {
+    alert("O jogo acabou, eles ganharam!");
+    window.location.reload(true);
+  }
+};
 
 var addNoveEles = document.getElementById("botao-adiciona-nove-eles");
 addNoveEles.onclick = function () {
-    if (totalEles < 3) {
-        adicionaNovePontoEles();
-    } else {
-        alert("O jogo acabou, eles ganharam!");
-        window.location.reload(true);
-    }
-}
+  if (totalEles < 3) {
+    adicionaNovePontoEles();
+  } else {
+    alert("O jogo acabou, eles ganharam!");
+    window.location.reload(true);
+  }
+};
 
 var tiraUmEles = document.getElementById("botao-tira-um-eles");
 tiraUmEles.onclick = function () {
-    if (totalEles > 0) {
-        tiraUmPontoEles();
-    } else {
-        alert("O número de pontos não pode ser menor que zero!");
-    }
-}
+  if (totalEles > 0) {
+    tiraUmPontoEles();
+  } else {
+    alert("O número de pontos não pode ser menor que zero!");
+  }
+};

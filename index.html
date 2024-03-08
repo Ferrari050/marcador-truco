@@ -1,62 +1,83 @@
 <!DOCTYPE html>
 <html>
-
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Marcador de Truco Paulista</title>
-    <link rel="stylesheet" href="./css/main.css">
-    <link rel="stylesheet" href="./css/reset.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
-</head>
+    <link rel="stylesheet" href="./css/main.css" />
+    <link rel="stylesheet" href="./css/reset.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap"
+      rel="stylesheet"
+    />
+  </head>
 
-<body>
+  <body>
     <header>
-        <h1 class="titulo">Marcador de Tento</h1>
+      <h1 class="titulo">Marcador de Tento</h1>
     </header>
 
     <main>
-        <div class="painel-nos">
-            <ul class="botoes-nos">
-                <li>
-                    <h3 class="titulo-time">Nós</h3>
-                </li>
-                <div class="pontos"><span id="amount-nos"></span>
-                </div>
-                <li class="botao-add"><button id="botao-adiciona-um-nos">+1</button></li>
-                <li class="botao-add"><button id="botao-adiciona-tres-nos">+3</button></li>
-                <li class="botao-add"><button id="botao-adiciona-seis-nos">+6</button></li>
-                <li class="botao-add"><button id="botao-adiciona-nove-nos">+9</button></li>
-                <li class="botao-add"><button id="botao-tira-um-nos">-1</button></li>
-            </ul>
+      <div class="painel-nos">
+        <ul class="botoes-nos">
+          <li>
+            <h3 class="titulo-time">Nós</h3>
+          </li>
+          <div class="pontos"><span id="amount-nos"></span></div>
+          <li class="botao-add">
+            <button id="botao-adiciona-um-nos">+1</button>
+          </li>
+          <li class="botao-add">
+            <button id="botao-adiciona-tres-nos">+3</button>
+          </li>
+          <li class="botao-add">
+            <button id="botao-adiciona-seis-nos">+6</button>
+          </li>
+          <li class="botao-add">
+            <button id="botao-adiciona-nove-nos">+9</button>
+          </li>
+          <li class="botao-add"><button id="botao-tira-um-nos">-1</button></li>
+        </ul>
+      </div>
 
-        </div>
-
-        <div class="painel-eles">
-            <ul class="botoes-eles">
-                <li>
-                    <h3 class="titulo-time">Eles</h3>
-                </li>
-                <div class="pontos"><span id="amount-eles"></span>
-                </div>
-                <li class="botao-add"><button id="botao-adiciona-um-eles">+1</button></li>
-                <li class="botao-add"><button id="botao-adiciona-tres-eles">+3</button></li>
-                <li class="botao-add"><button id="botao-adiciona-seis-eles">+6</button></li>
-                <li class="botao-add"><button id="botao-adiciona-nove-eles">+9</button></li>
-                <li class="botao-add"><button id="botao-tira-um-eles">-1</button></li>
-            </ul>
-        </div>
+      <div class="painel-eles">
+        <ul class="botoes-eles">
+          <li>
+            <h3 class="titulo-time">Eles</h3>
+          </li>
+          <div class="pontos"><span id="amount-eles"></span></div>
+          <li class="botao-add">
+            <button id="botao-adiciona-um-eles">+1</button>
+          </li>
+          <li class="botao-add">
+            <button id="botao-adiciona-tres-eles">+3</button>
+          </li>
+          <li class="botao-add">
+            <button id="botao-adiciona-seis-eles">+6</button>
+          </li>
+          <li class="botao-add">
+            <button id="botao-adiciona-nove-eles">+9</button>
+          </li>
+          <li class="botao-add"><button id="botao-tira-um-eles">-1</button></li>
+        </ul>
+      </div>
     </main>
 
     <footer>
-        <a href="https://www.linkedin.com/in/joaoferrari066" target="_blank">
-            <p class="assinatura"> <img  class="linkedin-icon"  src="./img/linkedin-icon.png" alt="linkedin-icon">  João Ferrari</p>
-        </a>
+      <a href="https://www.linkedin.com/in/joaoferrari066" target="_blank">
+        <p class="assinatura">
+          <img
+            class="linkedin-icon"
+            src="./img/linkedin-icon.png"
+            alt="linkedin-icon"
+          />
+          João Ferrari
+        </p>
+      </a>
     </footer>
 
     <script src="./js/main.js"></script>
-</body>
-
+  </body>
 </html>
